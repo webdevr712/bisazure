@@ -1,0 +1,26 @@
+# Ignore core Drupal files
+/core/
+/modules/contrib/
+/themes/contrib/
+
+# Ignore user-specific files
+/files/
+
+# Ignore vendor dependencies installed via Composer
+/vendor
+/vendor/*
+
+# Ignore configuration files
+/sites/*/settings*.php
+
+# Ignore development-specific files
+/sites/*/development.services.yml
+/sites/*/settings.local.php
+
+# Ignore IDE/project-specific files
+/.idea/
+/.vscode/
+.project
+.settings
+
+/sites/default/files/css/*
